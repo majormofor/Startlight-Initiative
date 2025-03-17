@@ -229,7 +229,9 @@ footer {
 .social-media a:hover {
   color: #3498db;
 }
-
+#tes{
+    margin-top: 10px;
+}
 #who {
   margin-bottom: 50px;
   border: gold;
