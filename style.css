@@ -1,0 +1,250 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #2c3e50;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Hero Section */
+.hero {
+  background: url("hero-bg.jpg") no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  background: gold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+  margin: 0 10px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Programs Section */
+.programs {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.program-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program-card i {
+  font-size: 2rem;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Success Stories Section */
+.stories {
+  padding: 50px 0;
+}
+
+.story-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.story {
+  flex: 0 0 auto;
+  width: 300px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Get Involved Section */
+.get-involved {
+  background-color: orange;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.involve-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.involve-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+}
+
+.involve-card i {
+  font-size: 2rem;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Partners Section */
+.partners {
+  padding: 50px 0;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.partner-logos img {
+  max-width: 150px;
+}
+
+/* News & Events Section */
+.news {
+  padding: 50px 0;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.news-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #3498db;
+}
+
+#tes {
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+#who {
+  margin-bottom: 50px;
+  border: gold;
+  border-radius: 10px;
+  background-color: goldenrod;
+}
+
+#about {
+  padding: 10px;
+  margin: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: initial;
+  font-size: 20px;
+}
